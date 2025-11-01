@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(15, 23%, 4%);
+  --muted: hsl(210, 40%, 98%);
+  --muted-foreground: hsl(215, 16%, 47%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(15, 23%, 4%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(15, 23%, 4%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --primary: hsl(195, 100%, 39%);
+  --primary-foreground: hsl(210, 40%, 98%);
+  --secondary: hsl(210, 40%, 96%);
+  --secondary-foreground: hsl(222, 84%, 5%);
+  --accent: hsl(210, 40%, 96%);
+  --accent-foreground: hsl(222, 84%, 5%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(215, 16%, 47%);
+  --radius: 0.5rem;
+  
+  /* Custom brand colors */
+  --mastery-blue: hsl(225, 68%, 33%);
+  --authority-white: hsl(0, 0%, 100%);
+  --innovation-teal: hsl(195, 100%, 39%);
+  --ai-silver: hsl(215, 16%, 47%);
+  --framework-black: hsl(222, 84%, 5%);
+}
+
+.dark {
+  --background: hsl(222, 84%, 5%);
+  --foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --popover: hsl(222, 84%, 5%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 84%, 5%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --primary: hsl(195, 100%, 39%);
+  --primary-foreground: hsl(222, 84%, 5%);
+  --secondary: hsl(217, 32%, 17%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --accent: hsl(217, 32%, 17%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 63%, 31%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --ring: hsl(217, 32%, 17%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .mastery-blue {
+    background-color: var(--mastery-blue);
+  }
+  
+  .text-mastery-blue {
+    color: var(--mastery-blue);
+  }
+  
+  .text-innovation-teal {
+    color: var(--innovation-teal);
+  }
+  
+  .bg-innovation-teal {
+    background-color: var(--innovation-teal);
+  }
+  
+  .text-ai-silver {
+    color: var(--ai-silver);
+  }
+  
+  .text-framework-black {
+    color: var(--framework-black);
+  }
+  
+  .bg-framework-black {
+    background-color: var(--framework-black);
+  }
+}
