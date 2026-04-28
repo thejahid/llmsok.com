@@ -1,4 +1,4 @@
-# llmsok — Is your site agent-ready?
+# LLMsOK — Is your site agent-ready?
 
 **[llmsok.com](https://llmsok.com)** is a free **website scanner** built for the **AI agent** era: paste almost any public URL and get an **agent readiness score**, category breakdowns, and **pass/fail checks** with evidence (status codes, headers, and short excerpts)—not a black-box “AI SEO” score.
 
@@ -8,13 +8,13 @@ If you care whether **LLMs, crawlers, chatbots, and automation** can **discover*
 
 ## What “agent readiness” means here
 
-**Agent readiness** is the boring infrastructure layer: **robots.txt**, **sitemaps**, **llms.txt**, **MCP** and **OAuth** discovery files, **agent skills** indexes, **content signals**, and related signals. When that layer is messy or missing, agents waste tokens, mis-route, or skip your site entirely. llmsok surfaces that layer so you can **prioritize fixes** with receipts you can trace.
+**Agent readiness** is the boring infrastructure layer: **robots.txt**, **sitemaps**, **llms.txt**, **MCP** and **OAuth** discovery files, **agent skills** indexes, **content signals**, and related signals. When that layer is messy or missing, agents waste tokens, mis-route, or skip your site entirely. LLMsOK surfaces that layer so you can **prioritize fixes** with receipts you can trace.
 
 ---
 
 ## What the scan checks (high level)
 
-llmsok groups checks into **five categories** you see in the UI—roughly **nineteen automated checks** by default—so you can see where you are strong vs where you are leaking trust:
+LLMsOK groups checks into **five categories** you see in the UI—roughly **nineteen automated checks** by default—so you can see where you are strong vs where you are leaking trust:
 
 - **Discoverability** — e.g. **robots.txt**, **XML sitemap** reachability, **Link** headers that help clients find alternate representations.  
 - **Content accessibility** — e.g. whether important resources support **Markdown negotiation** where it matters.  
@@ -51,7 +51,7 @@ Practical articles on **[llmsok.com/blog](https://llmsok.com/blog)**—good comp
 
 ---
 
-## Who llmsok is for
+## Who LLMsOK is for
 
 - **Developers and site owners** who need a **repeatable** readiness check—not a one-off blog checklist.  
 - **Teams shipping MCP, OAuth, or agent-facing APIs** who want **well-known** paths and cards to match reality.  
